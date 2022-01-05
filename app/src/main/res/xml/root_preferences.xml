@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/phone_header">
+
+        <EditTextPreference
+            app:key="phone_number"
+            app:title="@string/call_number"
+            app:useSimpleSummaryProvider="true" />
+
+
+        <CheckBoxPreference
+            app:key="call_app_start"
+            app:title="@string/call_start"
+            app:useSimpleSummaryProvider="true" />
+
+        <CheckBoxPreference
+            app:key="call_speaker"
+            app:title="@string/call_speaker"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BtnCall" parent="TextAppearance.AppCompat">
+        <item name="android:backgroundTint">@color/green</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="BtnCancel" parent="TextAppearance.AppCompat">
+        <item name="android:backgroundTint">@color/red</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

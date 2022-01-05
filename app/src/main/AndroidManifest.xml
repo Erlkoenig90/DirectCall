@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.niklas_guertler.directcall">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DirectCall">
+        <activity
+            android:name="de.niklas_guertler.directcall.SettingsActivity"
+            android:exported="true"
+            android:noHistory="true"
+            android:label="@string/title_activity_settings"
+            android:icon="@drawable/ic_icon_settings"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="de.niklas_guertler.directcall.MainActivity"
+            android:label="@string/title_activity_main"
+            android:noHistory="true"
+            android:icon="@drawable/ic_icon"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="locus.api.android.INTENT_ITEM_MAIN_FUNCTION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DirectCall</string>
+    <string name="title_activity_settings">DirectCall Einstellungen</string>
+    <string name="title_activity_main">DirectCall</string>
+    <string name="call">Anrufen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="call_fmt">%s anrufen</string>
+    <string name="permission_denied">Telefon-Berechtigung verweigert</string>
+
+    <!-- Preference Titles -->
+    <string name="phone_header">Anruf</string>
+
+    <!-- Preferences -->
+    <string name="call_number">Telefonnummer</string>
+    <string name="call_start">Ohne Bestätigung direkt anrufen</string>
+    <string name="call_speaker">Per Lautsprecher anrufen</string>
+</resources>
